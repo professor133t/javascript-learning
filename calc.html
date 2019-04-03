@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My calculator</title>
+    <script src="calc.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <input type="text" id="number1" value="0">
+    <input type="text" id="number2" >
+    <br>
+    <input type="button" id="0" onclick="button0()" value="0">
+    <input type="button" id="1" onclick="button1()" value="1">
+    <input type="button" id="2" onclick="button2()" value="2">
+    <br>
+    <input type="button" id="3" onclick="button3()" value="3">
+    <input type="button" id="4" onclick="button4()" value="4">
+    <input type="button" id="5" onclick="button5()" value="5">
+    <br>
+    <input type="button" id="6" onclick="button6()" value="6">
+    <input type="button" id="7" onclick="button7()" value="7">
+    <input type="button" id="8" onclick="button8()" value="8">
+    <input type="button" id="9" onclick="button9()" value="9">
+    <br>
+
+    <input type="button" id="add" onclick="add()" value="+">
+    <br>
+    <input type="button" id="subtract" onclick="subtract()" value="-">
+    <br>
+    <input type="button" id="multiply" onclick="multiply()" value="X">
+    <br>
+    <input type="button" id="divide" onclick="divide()" value="/">
+    <br>
+
+    <input type="button" id="clear" onclick="document.location.reload(true)" value="C">
+
+
+    <p id="output"></p>
+
+  </body>
+</html>
