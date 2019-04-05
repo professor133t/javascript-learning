@@ -31,6 +31,7 @@ function multiply(){
 function divide(){
   if (document.getElementById('number1').value == "0") {
     document.getElementById('number1').value = document.getElementById('number2').value;
+    
 
 
   }else {
@@ -38,7 +39,7 @@ function divide(){
       var num1 = parseInt(document.getElementById('number1').value);
       var num2 = parseInt(document.getElementById('number2').value);
       document.getElementById('number1').value = num1 / num2;
-      
+
 
 
 

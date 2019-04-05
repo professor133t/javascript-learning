@@ -1,0 +1,46 @@
+
+#heading{
+  color: #008710;
+  font-size: 50px;
+  font-family: fantasy;
+
+
+
+
+
+}
+body{
+  background-color: #131A1A;
+  text-align: center;
+}
+#number1{
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+  background-color: #131A1A;
+  color: #008710;
+}
+#number2{
+  width: 300px;
+  height: 100px;
+  font-size: 50px;
+  background-color: #131A1A;
+  color: #008710;
+}
+.buttons{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #131A1A;
+  color: #008710;
+
+
+}
+.buttons:hover{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: #2C2E2C;
+  color: #008710;
+
+}
